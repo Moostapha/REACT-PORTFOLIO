@@ -68,3 +68,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+https://www.youtube.com/watch?v=G-Cr00UYokU&t=442s
+
+Assets: https://drive.google.com/file/d/18FpI...
+
+Timestamps
+00:00:00 Intro (Project Overview)
+00:08:43 Buying Hosting & Claiming Free Domain on Hostinger
+00:11:38 Installing Node & VSCode
+00:12:21 Assets
+00:12:56 Creating our React App using npx create-react-app
+00:14:22 Managing and Creating files & folders
+00:20:15 Creating all Components
+00:27:40 CSS Variables & General CSS Styles
+00:45:00 Header Component JSX
+00:52:42 Installing React Icons and Using them in our project
+00:56:18 Header Component CSS
+01:04:20 Header Component Responsive Design
+01:06:45 Floating Nav Component JSX
+01:13:57 Floating Nav Component CSS
+01:18:00 Managing Nav States using useState Hook
+01:21:43 About Component JSX
+01:28:29 About Component CSS
+01:35:15 About Component Responsive Design
+01:38:45 Experience Component JSX
+01:44:17 Experience Component CSS
+01:50:40 Experience Component Responsive Design
+01:53:35 Services Component JSX
+01:57:25 Services Component CSS
+02:02:35 Services Component Responsive Design
+02:04:15 Portfolio Component JSX
+02:10:10 Portfolio Component CSS
+02:14:45 Portfolio Component Responsive Design
+02:16:02 Generating Portfolio Items from Array using map method
+02:20:44 Testimonials Component JSX
+02:24:03 Testimonials Component CSS
+02:29:15 Testimonials Component Responsive Design
+02:30:26 Generating Testimonials from Array using map method
+02:33:40 Creating Carousel/Slides using SwiperJS
+02:40:23 Contact Component JSX (Multiple contact options: Facebook Messenger, WhatsApp & Email)
+02:51:02 Contact Component CSS
+02:57:02 Contact Component Responsive Design
+02:58:34 Form Submission using EmailJS
+03:07:43 Footer Component JSX
+03:11:53 Footer Component CSS
+03:16:30 Footer Component Responsive Design
+03:18:50 Deploying Our React Website

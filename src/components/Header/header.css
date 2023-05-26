@@ -1,0 +1,133 @@
+header {
+    /* height: 100vh; */
+    padding-top: 7rem;
+    overflow: hidden;
+
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* BUTTON CALL TO ACTION STYLES */
+
+.callToAction {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* HEADER SOCIALS ICONS STYLES */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    font-size: x-large;
+}
+
+/* DIV ME + IMG */
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+}
+
+/* img {
+    margin-top: 1rem;
+} */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-style: 0.9rem;
+}
+
+
+/* HEADER RESPONSIVE */
+
+/* LARGE DEVICE AU DESSUS DE 1024px */
+@media screen and (min-width: 1024px) {
+    
+    .container.header__container {
+        height: 60vh;
+        margin-bottom: 4rem;
+    }
+}
+
+/* MEDIUM DEVICES EN DESSOUS DE 1024PX */
+@media screen and (max-width: 1024px) {
+    
+    .container.header__container {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 703px) {
+    .container.header__container {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container.header__container {
+        height: 80vh;
+    }
+}
+
+
+/* SMALL DEVICES */
+@media screen and (max-width: 600px) {
+    
+    .container.header__container {
+        height: 70vh;
+    }
+    
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    
+    /* Repositionnement et taille photo me + sa div */
+    .me {
+        width: 14rem;
+        height: 18rem;
+        left: calc(50% - 7rem);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container.header__container {
+        height: 80vh;
+    }
+}
+
+
+@media screen and (max-width: 355px) {
+    
+    /* Repositionnement et taille photo me + sa div */
+    .me {
+        width: 10rem;
+        height: 14rem;
+        left: calc(50% - 5rem);
+    }
+    
+    /* btn plus small sur small devices */
+    .btn {
+        font-size: small
+    }
+}
