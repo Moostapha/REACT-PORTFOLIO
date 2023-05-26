@@ -17,7 +17,7 @@ const Portfolio = () => {
           </div>
             <h3>Company Social Network</h3>
             <a href="https://github.com/Moostapha/SOCIAL-NETWORK" className='btn' target='__blank'>
-              Code Github Réseau social d'entreprise
+              Code Github Réseau social
             </a>
         </article>
       </div>
